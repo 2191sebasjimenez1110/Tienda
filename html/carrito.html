@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/productos.css">
+    <link rel="stylesheet" href="../css/carrito.css">
     <title>Tienda | Productos</title>
 </head>
 <body>
@@ -13,6 +13,10 @@
             <li><a href="">productos</a></li>
             <li><a href="">categoria</a></li>
         </ul>
+        <div class="carrito">
+            <img src="../images/pngwing.com.png" alt="">
+            <span id="contador">0</span>
+        </div>
     <div class="separador"></div>
     </nav>
     <header class="encabezado">
@@ -29,54 +33,55 @@
                 <h3 class="card-title">Audifonos</h3>
                 <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt deserunt quod atque debitis quo nam quam non. Voluptas repellendus placeat illum omnis tenetur obcaecati id quo soluta cupiditate magni?</p>
                 <span class="precio-card">precio: $120.000</span> <br>
-                <button class="card-button">Agregar</button>
-                <button class="card-button">Eliminar</button>
+                <button class="card-button" onclick="anadir()">Agregar</button>
+                <button class="card-button" onclick="eliminar()">Eliminar</button>
             </div>
             <div class="card">
                 <img src="../images/telefono.png" alt="" class="img-card">
                 <h3 class="card-title">Telefono</h3>
                 <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt deserunt quod atque debitis quo nam quam non. Voluptas repellendus placeat illum omnis tenetur obcaecati id quo soluta cupiditate magni?</p>
                 <span class="precio-card">precio: $1.500.000</span> <br>
-                <button class="card-button">Agregar</button>
-                <button class="card-button">Eliminar</button>
+                <button class="card-button" onclick="anadir()">Agregar</button>
+                <button class="card-button" onclick="eliminar()">Eliminar</button>
             </div>
             <div class="card">
                 <img src="../images/chaqueta.png" alt="" class="img-card">
                 <h3 class="card-title">Chaqueta</h3>
                 <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt deserunt quod atque debitis quo nam quam non. Voluptas repellendus placeat illum omnis tenetur obcaecati id quo soluta cupiditate magni?</p>
                 <span class="precio-card">precio: $80.000</span> <br>
-                <button class="card-button">Agregar</button>
-                <button class="card-button">Eliminar</button>
+                <button class="card-button" onclick="anadir()">Agregar</button>
+                <button class="card-button" onclick="eliminar()">Eliminar</button>
             </div>
             <div class="card">
                 <img src="../images/zapatos.png" alt="" class="img-card">
                 <h3 class="card-title">Tenis</h3>
                 <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt deserunt quod atque debitis quo nam quam non. Voluptas repellendus placeat illum omnis tenetur obcaecati id quo soluta cupiditate magni?</p>
                 <span class="precio-card">precio: $90.000</span> <br>
-                <button class="card-button">Agregar</button>
-                <button class="card-button">Eliminar</button>
+                <button class="card-button" onclick="anadir()">Agregar</button>
+                <button class="card-button" onclick="eliminar()">Eliminar</button>
             </div>
             <div class="card">
                 <img src="../images/voley.png" alt="" class="img-card">
                 <h3 class="card-title">Balon Voley</h3>
                 <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt deserunt quod atque debitis quo nam quam non. Voluptas repellendus placeat illum omnis tenetur obcaecati id quo soluta cupiditate magni?</p>
                 <span class="precio-card">precio: $80.000</span> <br>
-                <button class="card-button">Agregar</button>
-                <button class="card-button">Eliminar</button>
+                <button class="card-button" onclick="anadir()">Agregar</button>
+                <button class="card-button" onclick="eliminar()">Eliminar</button>
             </div>
             <div class="card">
                 <img src="../images/zapatillasFut.png" alt="" class="img-card">
                 <h3 class="card-title">Zapatillas Futbol</h3>
                 <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus sunt deserunt quod atque debitis quo nam quam non. Voluptas repellendus placeat illum omnis tenetur obcaecati id quo soluta cupiditate magni?</p>
                 <span class="precio-card">precio: $250.000</span> <br>
-                <button class="card-button">Agregar</button>
-                <button class="card-button">Eliminar</button>
+                <button class="card-button" onclick="anadir()">Agregar</button>
+                <button class="card-button" onclick="eliminar()">Eliminar</button>
             </div>
         </div>
-        
     </section>
+    <div class="separador"></div>
     <footer>
         <p>pagina creada por sebastian JM. &copy reservado los derechos de uso</p>
     </footer>
+    <script src="../js/carrito.js"></script>
 </body>
 </html>
